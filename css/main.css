@@ -1,0 +1,47 @@
+.container{
+    border: 2px solid rgb(240, 126, 19);
+    height: 50vh;
+    display: -webkit-box;
+}
+
+/* .inner-container{
+    border: 2px solid pink;
+    resize: both;
+} */
+
+.resizable {
+    position: fixed;
+    left: 0px;
+    top: 10px;
+    resize: both;
+    overflow: auto;
+    border: 1px solid black;
+    width: 20%;
+    height: 30vh;
+  }
+
+  .resizable:hover .display{
+      display: inline;
+  }
+
+  .dlt-btn{
+      float: right;
+  }
+  .display{
+      display: none;
+  }
+  .textarea{
+      display: none;
+  }
+  .btn{
+      z-index: 999;
+  }
+  .logo{
+      width: 7%;
+  }
+  .text-btn{
+    position: absolute;
+    z-index: 1000;
+    bottom: 0px;
+    left: 0px;
+  }
